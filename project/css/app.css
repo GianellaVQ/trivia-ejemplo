@@ -1,0 +1,99 @@
+body{
+    /* background-color: rgb(144, 223, 226); */
+    font-family: sans-serif;
+    font-size: 25px;
+    /* background-color: none; */
+    background-image: url(https://3.bp.blogspot.com/-MtObdBnXZiY/WZ9ZE5YKCKI/AAAAAAAAA80/NcgnXPZJ46gjX2edMlIffGMScc_56d7swCLcBGAs/s1600/cultura%2Bgeneral.jpg);
+}
+.welcome{
+   
+   
+}
+img{
+    display: block;
+}
+.select-game, .game_one , .game_two {
+    display: none;
+}
+.title-welcome, .welcome, .form-welcome, .select-game{
+    text-align: center;
+    margin: auto;
+}
+
+.form-welcome{
+    margin: auto;
+    background-color:rgba(59, 201, 226, 0.781);
+    width: 40%;
+    height: 400px;
+    border-radius: 10px 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch ;
+    align-content: space-around;
+   
+}
+.person, .person2, .btn-enviar, .name{
+    width: 80%;
+    margin: auto;
+}
+.name{
+    height: 30px;
+}
+.select-game{
+    background-color:rgba(24, 161, 185, 0.781);
+    width: 90%;
+    height: 80%;
+    border-radius: 20px 20px;    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.game_one{
+    background-color:rgba(24, 161, 185, 0.781);
+    width: 50%;
+    height: 90%;
+    border-radius: 20px 20px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.game_two{
+    background-color:rgba(24, 161, 185, 0.781);
+    width: 50%;
+    height: 90%;
+    border-radius: 20px 20px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lab{
+    color: yellow;
+}
+
+button{
+    width: 80%;
+    height:40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn-enviar{
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 8px 8px;
+}

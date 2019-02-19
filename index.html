@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia | Laboratoria</title>
+    <link rel="stylesheet" href="project/css/app.css">
+</head>
+<body>
+    <!-- <img src="https://3.bp.blogspot.com/-MtObdBnXZiY/WZ9ZE5YKCKI/AAAAAAAAA80/NcgnXPZJ46gjX2edMlIffGMScc_56d7swCLcBGAs/s1600/cultura%2Bgeneral.jpg" alt=""> -->
+
+         <h1 class="title-welcome">Bienvenida a <span class="lab">&lt; Laboratoria &gt;</span> </h1>
+     <div class="welcome" id="welcome">
+         
+         <form action="" class="form-welcome" id="form-welcome">
+             <label for="" class="person"> <b>Queremos conocerte mejor</b> </label>
+             <label for="" class="person2">
+                 Ingresa tu nombre 
+             </label>
+             <input type="text" class="name" id="name" >
+             <input class="btn-enviar" type="submit" value="Enviar" >
+         </form>
+     </div>
+     <div class="select-game" id="select-game">
+         <label for="">Vamos a jugar <span id="user_name"></span></label>
+         <form action="" class="form-game" id="form-game">
+             <button type="button" class="first_game" id="first_game"   onclick="game(1)">Sinónimos y antónimos</button>
+             <button type="button" class="second_game" id="second_game"  onclick="game(2)">Idioma</button>
+         </form>
+     </div>
+     <div class="game_one" id="game_one">
+        <form action="" class="form-game_one" id="form-game_one">
+
+            <p>1. ¿Cuál es el antónimo de triste?</p>
+            <input type="radio" id="question_one" name="question_one" value="1"> Molesto
+            <input type="radio" id="question_one" name="question_one" value="2"> Feliz
+            <input type="radio" id="question_one" name="question_one" value="3"> Alegre
+
+            <p>2. ¿Cuál es el antónimo de arriba?</p>
+            <input type="radio" id="question_two" name="question_two" value="1"> Abajo
+            <input type="radio" id="question_two" name="question_two" value="2"> Centro
+            <input type="radio" id="question_two" name="question_two" value="3"> Costado
+
+            <p>3. ¿Cuál es el antónimo de barato?</p>
+            <input type="radio" id="question_three" name="question_three" value="1"> Gratuito
+            <input type="radio" id="question_three" name="question_three" value="2"> Regalado
+            <input type="radio" id="question_three" name="question_three" value="3"> Caro
+            
+            <input class="btn-enviar" type="submit" value="Enviar">
+
+            <div class="respuesta" id="respuesta">
+
+            </div>
+        </form>  
+     </div>
+     <div class="game_two" id="game_two">
+        <form action="" class="form-game_one" id="form-game_two">
+            <p>1. ¿Cómo se escribe clima en inglés? </p>
+            <input type="radio" id="question_one" name="question_one" value="1">Sunny
+            <input type="radio" id="question_one" name="question_one" value="2">Cold
+            <input type="radio" id="question_one" name="question_one" value="3">Weather
+
+            <p>2. ¿Cómo se escribe tottuga en inglés?</p>
+            <input type="radio" id="question_two" name="question_two" value="1">Turtle
+            <input type="radio" id="question_two" name="question_two" value="2">Snake
+            <input type="radio" id="question_two" name="question_two" value="3">Hen
+
+            <p>3. ¿Cómo se escribe hija en inglés?</p>
+            <input type="radio" id="question_three" name="question_three" value="1">Son
+            <input type="radio" id="question_three" name="question_three" value="2">Daughter
+            <input type="radio" id="question_three" name="question_three" value="3">Uncle
+            
+            <input class="btn-enviar" type="submit" value="Enviar">
+
+            <div class="respuesta" id="respuesta_game_two">
+            
+            </div>
+        </form> 
+    </div>
+    <script src="project/js/app.js"></script>
+</body>
+</html>
